@@ -9,10 +9,9 @@ let total = 0;
 let usernumber = 0;
 let counter = 1;
 while (counter <=5) {
-    usernumber = propt("enter integer: ");
-    usernumber = number(usernumber);
+    usernumber = prompt("enter integer: ");
+    usernumber = Number(usernumber);
     total = total + usernumber;
-    counter +1
-    }
-    document.write = total
-}
+    counter++;
+    }    
+    document.write(total) ;
