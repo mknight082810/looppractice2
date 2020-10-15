@@ -5,13 +5,14 @@
  */
 
 document.write("This program asks the user for 5 numbers and prints their total.");
+let total = 0;
+let usernumber = 0;
 let counter = 1;
-let sum = 0;
-let userNumber = 0;
-while (counter <= 5) {
-    userNumber = Number(prompt("Enter number " + counter + ": "));
-    sum = sum + userNumber;
-    counter = counter + 1;
+while (counter <=5) {
+    usernumber = propt("enter integer: ");
+    usernumber = number(usernumber);
+    total = total + usernumber;
+    counter +1
+    }
+    document.write = total
 }
-document.write("<br>The sum is " + sum);
-
